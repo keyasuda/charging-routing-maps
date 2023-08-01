@@ -47,3 +47,5 @@ config/environments/*.local.yml
 /rubies
 /wasi-vfs
 .vercel
+
+/data
