@@ -29,8 +29,10 @@ GEM
       rubocop (>= 1.14, < 1.29)
       rubocop-rails
       rubocop-rspec (>= 1.15.1)
+    fast-polylines (2.2.2)
     ffi (1.15.5)
     formatador (1.1.0)
+    gis-distance (1.1.0)
     guard (2.18.0)
       formatador (>= 0.2.4)
       listen (>= 2.7, < 4.0)
@@ -133,6 +135,8 @@ PLATFORMS
 DEPENDENCIES
   bormashino (~> 0.1.15)
   fablicop
+  fast-polylines (~> 2.2, >= 2.2.2)
+  gis-distance (~> 1.1)
   guard
   guard-rake!
   guard-rspec

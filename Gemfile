@@ -10,3 +10,6 @@ gem 'guard-rake', git: 'https://github.com/rubyist/guard-rake.git', ref: '313849
 gem 'guard-rspec', require: false
 gem 'guard-rubocop'
 gem 'rspec', '>= 3.0.0'
+
+gem 'fast-polylines', '~> 2.2', '>= 2.2.2'
+gem 'gis-distance', '~> 1.1'
